@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "scripts": {
+    "build:dev": "lerna run build:dev",
+    "build:prod": "lerna run build:prod"
+  }
+}
